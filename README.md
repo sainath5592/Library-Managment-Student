@@ -1,23 +1,23 @@
-## Library Management System 📚
+Absolutely! Here's a **complete README.md** combining everything you just provided, ready to use:
 
-A web app for managing all the activities of a library like managing members and book transactions, built on MERN Stack
-![1](https://user-images.githubusercontent.com/73348574/205624307-6a1b18fa-5ef7-4de9-b141-9225eca62c6c.png)
+````markdown
+# Library Management System 📚
 
+A web app for managing all the activities of a library like managing members and book transactions, built on **MERN Stack**.
 
+---
 
-## Index ✏️
+## ✏️ Index
+- Library Management System 📚
+- Features Of LCMS 🚀
+- Setup 🔥
+  - Frontend Setup 🍧
+  - Backend Setup 🍿
+- Technologies 🛠
 
-- [Library Management System 📚](#library-management-system-)
-  - [Video Demo](#video-demo)
-- [Index ✏️](#index-️)
-- [Features Of LCMS 🚀](#features-of-lcms-)
-- [Setup 🔥](#setup-)
-  - [Frontend Setup 🍧](#frontend-setup-)
-  - [Backend Setup 🍿](#backend-setup-)
-- [Technologies 🛠](#technologies-)
+---
 
-## Features Of LCMS 🚀
-
+## 🚀 Features Of LCMS
 - Admin Login and Student Login
 - Admin and Student Dashboard
 - Adding Library Members
@@ -26,42 +26,95 @@ A web app for managing all the activities of a library like managing members and
 - Reserving a book for specific dates
 - Showing the Achievements, Event Gallery
 
-## Setup 🔥
+---
 
-- Fork the Repo
+## 🔥 Setup
 
-- Clone the repo to your local machine
-  `git clone <repo-url>`
+### 1. Fork the Repo
+Fork the repository to your GitHub account.
 
-### Frontend Setup 🍧
+### 2. Clone the Repo
+```bash
+git clone <repo-url>
+````
 
-1. Get into the chatapp directory
-   `cd frontend`
+---
 
-2. Run `yarn` to install dependencies
+## 🍧 Frontend Setup
 
-3. Create a `.env` file and create variables as mentioned in the `.env.example` with the values
+1. Go to the frontend directory:
 
-4. Run `yarn start` to start the application
+```bash
+cd frontend
+```
 
-### Backend Setup 🍿
+2. Install dependencies:
 
-1. Get into backend directory `cd backend`
+```bash
+npm install
+```
 
-2. Run `yarn` to install dependencies
+3. Create a `.env` file and set the variables as mentioned in `.env.example`.
 
-3. Create a MongoDB account and get the MONOGO_URL for connecting the server and the Database
+4. Start the application:
 
-4. Create a `.env` file and create variables as mentioned in the `.env.example` with the values
+```bash
+npm start
+```
 
-5. Run `nodemon server.js` to start the server [Should have installed nodemon globally]
+---
 
-## Technologies 🛠
+## 🍿 Backend Setup
 
-- ReactJS[Hooks]
-- NodeJs
-- ExpressJs
-- MongoDB
+1. Go to the backend directory:
 
+```bash
+cd backend
+```
 
-# Library-Managment-Student
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Create a MongoDB account and get the `MONGO_URL` for connecting the server and database.
+
+4. Create a `.env` file and set the variables as mentioned in `.env.example`.
+
+5. Start the server:
+
+```bash
+nodemon server.js
+```
+
+> Make sure `nodemon` is installed globally:
+
+```bash
+npm install -g nodemon
+```
+
+> **Optional improvement:** You can add a `"dev"` script in `backend/package.json`:
+
+```json
+"scripts": {
+  "dev": "nodemon server.js"
+}
+```
+
+Then start the server using:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🛠 Technologies
+
+* **Frontend:** ReactJS ,JS
+* **Backend:** NodeJs, ExpressJs
+* **Database:** MongoDB
+
+```
+
